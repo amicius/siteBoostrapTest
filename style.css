@@ -1,0 +1,175 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    margin: 0px;
+    font-size: 15pt;
+    color: white;
+}
+header {
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#logoCinema {
+    width: 20%;
+    height: auto;
+    padding-left: 10%;
+}
+#logo {
+    flex-grow: 1;
+}
+#menu {
+    flex-grow: 2;
+}
+h1 {
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30pt;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+h2 {
+    display: none;
+}
+h3 {
+    font-size: 20pt;
+    display: flex;
+    justify-content: center;
+}
+h4 {
+    font-size: 18pt;
+    display: flex;
+    justify-content: center;
+}
+#menu {
+    display: flex;
+}
+#section1 {
+    background-image: url("img/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 20% 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#avantPremiere{
+	display: flex;
+	flex-direction:column;
+}
+#section2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: grey;
+}
+#section3 {
+    display: flex;
+    flex-direction: column;
+    background-color: darkgrey;
+}
+#section4 {
+    display: flex;
+    flex-direction: row;
+    background-color: grey;
+    justify-content: space-around;
+}
+#section5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgrey;
+}
+section {
+    padding: 20px;
+}
+footer {
+    background-color: grey;
+}
+#copyright {
+    background-color: darkgrey;
+}
+.infoDivision {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.division {
+    flex-direction: column;
+}
+#divaffiche {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#logoSociaux {
+    display: flex;
+    justify-content: center;
+}
+#contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+th {
+    background-color: blue;
+    padding: 1%;
+}
+td {
+    background-color: lightblue;
+    color: black;
+    padding: 1%;
+}
+#coloneVide {
+    background-color: darkgrey;
+}
+form {
+    font-size: 15pt;
+}
+input[type=submit] {
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 20px 20px;
+    cursor: pointer;
+    width: 100%;
+}
+textarea {
+    width: 98%
+}
+#sujet {
+    width: 98%
+}
+iframe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: auto;
+}
+@media only screen and (max-device-width:640px) {
+    #section4 {
+        display: flex;
+        flex-direction: column;
+        background-color: grey;
+        align-items: center;
+    }
+    .infoDivision {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #divaffiche {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .affiche {
+        padding: 2%;
+    }
+}
